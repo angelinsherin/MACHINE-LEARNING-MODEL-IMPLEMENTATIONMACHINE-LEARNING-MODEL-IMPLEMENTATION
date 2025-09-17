@@ -86,5 +86,6 @@ Accuracy Score: 1.0
 
 Confusion Matrix: [[10 0 0] [ 0 10 0] [ 0 0 10]]
 
+<img width="764" height="219" alt="Image" src="https://github.com/user-attachments/assets/93e2d52e-7383-423e-9956-0e646ef8df40" />
 
 macro avg 1.00 1.00 1.00 30 weighted avg 1.00 1.00 1.00 30
