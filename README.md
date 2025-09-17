@@ -24,12 +24,11 @@ The dataset used is the built-in Iris dataset from scikit-learn. It contains a t
 
 Four feature columns:
 
-sepal length (cm)
-sepal width (cm)
-petal length (cm)
-petal width (cm)
+          sepal length (cm)
+          sepal width (cm)
+          petal length (cm)
+          petal width (cm)
 One target column:
-
 target (encoded as 0, 1, 2 for the three flower species: setosa, versicolor, and virginica)
 The dataset is balanced and ideal for multiclass classification problems.
 
@@ -60,6 +59,7 @@ After training, the model makes predictions on the test data (X_test). The resul
 Accuracy Score: Measures the overall correct predictions.
 Confusion Matrix: Provides insight into class-wise performance.
 Classification Report: Displays precision, recall, and F1-score for each class.
+
 Feature Importance
 
 To understand which features contribute most to the classification, we plot feature importances as determined by the trained Random Forest model. A barplot generated using Seaborn shows how much each feature influences the prediction, helping us interpret the model's decision-making process.
@@ -68,17 +68,17 @@ Typically, petal length and width turn out to be the most influential features i
 
 How to Use
 
-Clone or open the notebook in Google Colab or Jupyter Notebook.
+1.Clone or open the notebook in Google Colab or Jupyter Notebook.
 
-Make sure the required libraries (pandas, matplotlib, seaborn, scikit-learn) are installed.
+2.Make sure the required libraries (pandas, matplotlib, seaborn, scikit-learn) are installed.
 
-Run all the steps sequentially:
+3.Run all the steps sequentially:
 
-Load and visualize the dataset
-Train the Random Forest model
-Predict and evaluate the performance
-View the feature importance plot
-Try modifying the model parameters, such as number of trees or train-test split ratio, to experiment and improve performance.
+          Load and visualize the dataset
+          Train the Random Forest model
+          Predict and evaluate the performance
+          View the feature importance plot
+4.Try modifying the model parameters, such as number of trees or train-test split ratio, to experiment and improve performance.
 
 output
 
@@ -86,12 +86,5 @@ Accuracy Score: 1.0
 
 Confusion Matrix: [[10 0 0] [ 0 10 0] [ 0 0 10]]
 
-          precision    recall  f1-score   support
-
-       0       1.00      1.00      1.00        10
-       1       1.00      1.00      1.00        10
-       2       1.00      1.00      1.00        10
-
-accuracy                           1.00        30
 
 macro avg 1.00 1.00 1.00 30 weighted avg 1.00 1.00 1.00 30
